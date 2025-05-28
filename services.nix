@@ -1,0 +1,43 @@
+{pkgs, ...}: {
+  services = {
+    dbus.enable = true;
+    gvfs.enable = true;
+    openssh = {
+      enable = true;
+      settings.PermitRootLogin = "yes";
+    };
+    duplicati.enable = true;
+    flatpak.enable = true;
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      pulse.enable = true;
+      wireplumber.enable = true;
+    };
+    xserver = {
+      xkb = {
+        layout = "us";
+        variant = "altgr-intl";
+      };
+    };
+    printing = {
+      enable = true;
+      drivers = [pkgs.hplip];
+    };
+    vsftpd = {
+      enable = true;
+      localRoot = "/hdd/kael/Documentos/Books";
+      localUsers = true;
+    };
+  };
+
+  programs = {
+    adb.enable = true;
+    hyprland = {
+      enable = true;
+      withUWSM = true;
+    };
+    direnv.enable = true;
+    dconf.enable = true;
+  };
+}
