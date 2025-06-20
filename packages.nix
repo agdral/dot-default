@@ -4,7 +4,7 @@
   environment.pathsToLink = ["/share/fish" "/share/zsh"];
   environment.systemPackages = with pkgs; [
     # Driver
-    trash-cli  android-tools  gifsicle  poppler_utils  python3  sqlite  unar  hplip  steam-run 
+    trash-cli  android-tools  gifsicle  poppler_utils  python3  sqlite  unar  hplip  steam-run  sqlcmd
     
     # Yazi 
     unzip  ripgrep  poppler  ffmpegthumbnailer  fd  jq  fzf  imagemagick  exiftool  mediainfo  ouch  glow
@@ -26,5 +26,5 @@
   fonts.packages = with pkgs; [
     noto-fonts  noto-fonts-cjk-sans  noto-fonts-emoji  fira-code  fira-code-symbols  nerd-fonts.jetbrains-mono
   ];
-  system.stateVersion = "24.11"; 
+  system.stateVersion = "25.05"; 
 }
