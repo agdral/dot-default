@@ -6,7 +6,6 @@
       enable = true;
       settings.PermitRootLogin = "yes";
     };
-    duplicati.enable = true;
     flatpak.enable = true;
     pipewire = {
       enable = true;
@@ -29,7 +28,7 @@
       localRoot = "/hdd/kael/Documentos/Books";
       localUsers = true;
     };
-  };
+  };  
 
   programs = {
     adb.enable = true;
