@@ -4,14 +4,14 @@
   environment.pathsToLink = ["/share/fish" "/share/zsh"];
   environment.systemPackages = with pkgs; [
     # Driver
-    trash-cli  android-tools  gifsicle  poppler_utils  python3  sqlite  unar  hplip  sqlcmd  bluez
+    trash-cli  android-tools  poppler_utils  python3  sqlite  unar  hplip  sqlcmd  bluez
 
     # Yazi 
     unzip  ripgrep  poppler  ffmpegthumbnailer  fd  jq  fzf  imagemagick  exiftool  mediainfo  ouch  glow
     transmission_4  epub-thumbnailer  p7zip
 
     # Shell & Terminal
-    zsh  fish  nushell  starship  atuin  zoxide  yazi  sd  fcp  
+    zsh  fish  nushell  starship  atuin  zoxide  yazi  sd  fcp  fdupes 
 
     # Cli
     wget  wl-clipboard  wev  wakeonlan  dust  just  google-cloud-sdk
