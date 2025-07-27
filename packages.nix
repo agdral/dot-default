@@ -26,5 +26,5 @@
   fonts.packages = with pkgs; [
     noto-fonts  noto-fonts-cjk-sans  noto-fonts-emoji  fira-code  fira-code-symbols  nerd-fonts.jetbrains-mono
   ];
-  system.stateVersion = "25.05"; 
+  system.stateVersion = "25.11"; 
 }
