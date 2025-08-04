@@ -23,11 +23,6 @@
       enable = true;
       drivers = [pkgs.hplip];
     };
-    vsftpd = {
-      enable = true;
-      localRoot = "/hdd/kael/Documentos/Books";
-      localUsers = true;
-    };
   };  
 
   programs = {

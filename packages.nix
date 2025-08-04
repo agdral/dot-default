@@ -4,14 +4,13 @@
   environment.pathsToLink = ["/share/fish" "/share/zsh"];
   environment.systemPackages = with pkgs; [
     # Driver
-    trash-cli  android-tools  poppler_utils  python3  sqlite  unar  hplip  sqlcmd  bluez
+    trash-cli  android-tools  python3  sqlite  unar  hplip  sqlcmd 
 
     # Yazi 
-    unzip  ripgrep  poppler  ffmpegthumbnailer  fd  jq  fzf  imagemagick  exiftool  mediainfo  ouch  glow
-    transmission_4  epub-thumbnailer  p7zip
+    ripgrep  fd  jq  fzf  ouch  glow  p7zip
 
     # Shell & Terminal
-    zsh  fish  nushell  starship  atuin  zoxide  yazi  sd  fcp  fdupes 
+    zsh  fish  nushell  starship  atuin  zoxide  yazi  sd  fcp  fdupes  btop
 
     # Cli
     wget  wl-clipboard  wev  wakeonlan  dust  just  google-cloud-sdk
@@ -26,5 +25,6 @@
   fonts.packages = with pkgs; [
     noto-fonts  noto-fonts-cjk-sans  noto-fonts-emoji  fira-code  fira-code-symbols  nerd-fonts.jetbrains-mono
   ];
+
   system.stateVersion = "25.11"; 
 }
