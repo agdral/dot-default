@@ -4,7 +4,7 @@
   environment.pathsToLink = ["/share/fish" "/share/zsh"];
   environment.systemPackages = with pkgs; [
     # Driver
-    trash-cli  android-tools  python3  sqlite  unar  hplip  sqlcmd 
+    trash-cli  android-tools  python3  sqlite  unar  hplip  sqlcmd  xdg-utils
 
     # Yazi 
     ripgrep  fd  jq  fzf  ouch  glow  p7zip
@@ -16,7 +16,7 @@
     wget  wl-clipboard  wev  wakeonlan  dust  just  google-cloud-sdk
 
     # Sound & Video   
-    pulseaudio  tidal-dl  playerctl  mpv
+    pulseaudio  playerctl  mpv  pamixer
 
     # Git
     git  gita  gitui  delta
