@@ -7,7 +7,7 @@
     trash-cli  android-tools  python3  sqlite  unar  hplip  sqlcmd  xdg-utils
 
     # Yazi 
-    ripgrep  fd  jq  fzf  ouch  glow  p7zip
+    ripgrep  fd  jq  fzf  ouch  p7zip
 
     # Shell & Terminal
     zsh  fish  nushell  starship  atuin  zoxide  yazi  sd  fcp  fdupes  btop
@@ -19,7 +19,7 @@
     pulseaudio  playerctl  mpv  pamixer
 
     # Git
-    git  gita  gitui  delta
+    git  gita  gitui
   ];
 
   fonts.packages = with pkgs; [
