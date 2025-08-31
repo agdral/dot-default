@@ -17,5 +17,6 @@
     dust
     just
     trash-cli
+    ansible
   ];
 }
