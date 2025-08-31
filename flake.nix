@@ -1,10 +1,10 @@
 {
   description = "Dotfile Default";
-
+  
   outputs = {...}: {
     nixosModules.default = {...}: {
       imports = [
-        ./packages.nix
+        ./packages
         ./services.nix
       ];
     };
