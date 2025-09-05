@@ -18,5 +18,8 @@
     just
     trash-cli
     ansible
+    bat
+    sshpass
+    rsync
   ];
 }
