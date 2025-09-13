@@ -27,10 +27,6 @@
 
   programs = {
     adb.enable = true;
-    hyprland = {
-      enable = true;
-      withUWSM = true;
-    };
     direnv.enable = true;
     dconf.enable = true;
   };
