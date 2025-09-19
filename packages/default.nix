@@ -4,10 +4,7 @@
   system.stateVersion = "25.11";
   imports = [
     ./drivers
-    ./fonts
-    ./git
     ./shell
-    ./sound
     ./yazi
   ];
   fonts.packages = with pkgs; [
