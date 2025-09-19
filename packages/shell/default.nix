@@ -8,18 +8,12 @@
     zoxide
     sd
     fcp
-    fdupes
     btop
     wget
-    wl-clipboard
     wev
-    wakeonlan
     dust
     just
-    trash-cli
-    ansible
     bat
-    sshpass
-    rsync
+    git
   ];
 }
